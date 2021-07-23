@@ -7,10 +7,16 @@ body {
 li {
 	list-style: none;
 	flex: auto;
+    font-family: inherit;
 }
 
 img {
 	max-width: 100%;
+}
+
+p {
+    font-family: inherit;
+    font-weight: 400;
 }
 
 
@@ -18,7 +24,7 @@ img {
 
 .upper-menu {
 	font-family: inherit;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 30px;
 	color: #aaa;
 }
