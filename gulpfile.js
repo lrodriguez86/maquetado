@@ -6,7 +6,7 @@ var sass = require("gulp-sass")(require("node-sass"));
 gulp.task("sass", function() {
   return gulp
     .src(["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"])
-    .pipe(sass())
+    .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest("src/css"))
     .pipe(browserSync.stream());
 });
