@@ -1,0 +1,32 @@
+{
+  "name": "maquetado",
+  "version": "1.0.0",
+  "description": "Markup for The Lighthouse movie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrodriguez86/maquetado.git"
+  },
+  "author": "Luis Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrodriguez86/maquetado/issues"
+  },
+  "homepage": "https://github.com/lrodriguez86/maquetado#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "swiper": "^6.8.0"
+  }
+}
